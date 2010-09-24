@@ -1,0 +1,53 @@
+urxvt*depth:	 32
+urxvt*background: rgba:0000/0000/0000/bbbb
+*foreground:     rgba:0000/0000/0000/dddd
+*background:     rgb:10/10/10
+urxvt.foreground: rgba:ffff/ffff/ffff/aaaa
+URxvt.tintColor: #d9d7d1
+
+!black
+*color0:         rgb:20/20/20
+*color8:         rgb:75/77/73
+!red
+ 
+*color9:         rgb:ef/29/29
+!green
+*color2:         rgb:4e/9a/06
+*color10:        rgb:8a/e2/34
+!brown/yellow
+*color3:         rgb:c4/a0/00
+*color11:        rgb:fc/e9/4f
+!blue
+*color4:         rgb:34/65/a4
+*color12:        rgb:72/9f/cf
+!magenta
+*color5:         rgb:75/50/7b
+*color13:        rgb:ad/7f/a8
+!cyan
+*color6:         rgb:06/98/9a
+*color14:        rgb:34/e2/e2
+!white
+*color7:         rgb:d3/d7/cf
+*color15:        rgb:ee/ee/ec
+! scroll set 
+URxvt.scrollBar:false
+URxvt.scrollBar_right: false
+URxvt.saveLines: 5000
+URxvt.transparent: true
+URxvt.externalBorder:.5
+URxvt.borderColor:#acacac
+URxvt.font:xft:文泉驿等宽正黑:Medium:pixelsize=11:antialias=true,xft:文泉驿等宽正黑:Medium:pixelsize=9
+! window geometry set 
+URxvt.geometry: 59x16
+URxvt.title: Rxvt-Unicode
+
+URxvt.urlLauncher: firefox
+URxvt.matcher.button: 1
+
+!! RXVT-unicode setting
+XTerm*preeditType:    Root
+XTerm*font: -microsoft-consolas-medium-r-normal--0-0-0-0-m-0-iso10646-1
+XTerm*wideFont: -microsoft-microsoft yahei-medium-r-normal--0-0-0-0-p-0-iso10646-1
+Xterm*cjkWidth: True
+
+Xcursor.theme: Vanilla-DMZ

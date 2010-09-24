@@ -1,0 +1,19 @@
+# 
+# /etc/fstab: static file system information
+#
+# <file system>        <dir>         <type>    <options>          <dump> <pass>
+none                   /dev/pts      devpts    defaults            0      0
+none                   /dev/shm      tmpfs     defaults            0      0
+
+#/dev/cdrom             /media/cd   auto    ro,user,noauto,unhide   0      0
+#/dev/dvd               /media/dvd  auto    ro,user,noauto,unhide   0      0
+#/dev/fd0               /media/fl   auto    user,noauto             0      0
+
+UUID=33dd86e0-5d57-4fd4-bde3-2f0dddb3c61b /home ext4 defaults 0 1
+UUID=69cdbcec-95fd-4bf6-9e10-c9c7993047ec swap swap defaults 0 0
+UUID=70405dec-16a1-45d6-9074-4be0bb323622 / ext4 defaults 0 1
+UUID=ef79822b-4e4a-436a-83b2-9cc233667e76 /var ext4 defaults 0 1
+UUID=fbb1c0c1-6526-42de-b3df-c2d717e9fc73 /boot ext4 defaults 0 1
+/dev/sda1       /media/eeeos  vfat   iocharset=utf8,umask=000   0       0
+/dev/sda10       /media/eeestorage  vfat   iocharset=utf8,umask=000   0       0
+/dev/sdb1       /media/backtrack   vfat   iocharset=utf8,umask=000   0       0
